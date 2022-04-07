@@ -1,0 +1,38 @@
+<html> 
+  
+  <body>  
+    <h1> DB-hello-world </h1>  
+  
+
+  <script type = "text/javascript">
+    var nickname = prompt("Please enter your name: ");
+    if (nickname != null) {
+      document.write(nickname + ", thanks for using IP REQUEST microservice");
+      
+        }
+  </script> 
+  
+      <script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+     
+    <script>
+     
+       $.get("https://ipinfo.io", function(response) {
+            alert("IP:"+response.ip);
+            
+        }, "json")
+        
+    </script>
+    
+    <script type = "text/javascript">
+        if (true) {
+      
+      
+        }
+  </script>
+ 
+ 
+  
+ 
+</html>
